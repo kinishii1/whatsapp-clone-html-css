@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Creative Design</title>
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="container">
@@ -63,6 +64,31 @@
         </div>
       </div>
     </aside>
+    <main class="chat-container">
+      <nav class="chat-navbar">
+        <div class="contactinfo-container">
+          <img src="img/avatar2.png" class="user-photo">
+          <p class="user-name">Alexia Couto</p>
+        </div>
+        <ul class="chattools-container">
+          <li class="fas fa-search"></li>
+          <li class="fas fa-paperclip"></li>
+          <li class="fas fa-ellipsis-v"></li>
+        </ul>
+      </nav>
+      <div class="messages-container">
+        <div class="bg-image"></div>
+        <div class="chat-messages">
+          <p class="guest-message">Ola bom dia</p>
+          <p class="user-message">bom dia</p>
+        </div>
+      </div>
+        <div class="sendmessage-container">
+          <i class="far fa-grin"></i>
+          <input type="text" id="chatmessage" name="message" class="userinput" placeholder="digite uma mensagem">
+          <i class="fas fa-microphone"></i>
+        </div>
+    </main>
   </div>
 
     <script src="script.js"></script>
