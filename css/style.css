@@ -114,3 +114,93 @@
   color:#bdc1c3;
 }
 
+/* contacts container */
+
+.contacts-container {
+  height: auto;
+  background-color: #fff;
+}
+
+.contact-box {
+  cursor: pointer;
+  height: 72px;
+  background-color: #fff;
+  border-top: 1px solid #f2f2f2;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.contact-box:last-child {
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.contact-box:hover {
+  background-color: #F4f5f5;
+}
+
+.active-chat {
+  background-color: #e9ebeb;
+}
+.active-chat.contact-box:hover {
+  background-color: #e9ebeb;
+}
+
+.contact-box .user-photo {
+  width: 50px;
+}
+
+.user-info {
+  margin-left: 80px;
+  padding-top: 10px;
+  display: inline-block;
+}
+
+.user-info p, .message-info p {
+  margin: 0;
+}
+
+.user-name {
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 12px;
+}
+
+.user-messagepreview {
+  font-size: 14px;
+  color: #454545;
+}
+
+.fa-check-double {
+  margin-right: 5px;
+  color: #4fc3f7;
+}
+
+.message-info {
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  display: inline-block;
+}
+
+.message-info .message-time {
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: #ccc;
+}
+
+.message-pending {
+  background-color: #09d261;
+  color: #fff;
+  width: 19px;
+  height: 19px;
+  line-height: 19px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 50%;
+  text-align: center;
+  float: right;
+}
+
+
+
+
